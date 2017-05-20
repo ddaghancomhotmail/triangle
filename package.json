@@ -1,0 +1,23 @@
+{
+  "name": "triangle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Triangle.js",
+  "scripts": {
+    "test": "babel ./src/test.js --out-file ./test.js; node test.js;",
+    "build": "babel ./src/Triangle.js --out-file ./Triangle.js;"
+  },
+  "keywords": [
+    "triangle"
+  ],
+  "author": "daghan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es3": "^1.0.1"
+  }
+}
